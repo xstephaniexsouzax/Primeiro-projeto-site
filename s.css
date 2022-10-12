@@ -1,24 +1,32 @@
-ul {
-    margin: 0; /* deixa sem a margem padrão da página*/
-    padding: 0; /*tira a marcação da lista */
-    list-style-type: none; /* Remove os marcadores da lista */
+*{
+   margin: 0;
+   padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
-ul a {
-    width: 200px; /*largura*/
-    height: 40px; /*altura*/
-    display: block; /* permite que sejam rederizados como blocos, tenho espaço em cima,do lado do outro*/
-    color: black;
-    text-decoration: none; /*remover o subilinhado abaixo do link*/
-    text-indent: 40px; /* recuo do texto, ficando mais centralizado*/
-    line-height: 40px; /* altura da linha- texto desce um pouco */
-    
-}
 
 a:hover{
-    color: #fff; /*mudar a cor da imgem quando passa o mause*/
+    color: rgb(236, 6, 6); /*mudar a cor da imgem quando passa o mause*/
 }
 
-.mapa {
+#cabe{
     text-align: center;
+    font-size: 25px;
+    background-color: aquamarine;
+    
+}
+#ti{
+    color: rgb(221, 23, 23);
+}
+h1{
+    color: rgb(51, 48, 48);
+}
+#menu{
+    text-align: center;
+    padding: 10px;
+
+}
+#logo-titulo{
+    padding: 10px;
 }
