@@ -1,0 +1,95 @@
+*{
+   margin: 0;
+   padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.0em;
+    
+}
+table{
+    width: 700px;
+ 
+}
+td, th{
+      padding: 7px; 
+}
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #4F4F4F;
+    border-bottom: 1px solid #363636;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+tr.alternado{
+    background-color: 	#C0C0C0;
+}
+tr:hover{
+    background-color:	#ADD8E6;
+}
+.numeros2 {
+    text-align: right;
+}
+a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(107, 44, 253); /*mudar a cor da imgem quando passa o mause*/
+    background-color: aliceblue;
+      
+}
+
+
+#cabe{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(214, 186, 240, 0.658);
+    
+}
+#ti{
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(71, 46, 180);
+    font-size: 1.5em;
+}
+#menu{
+    text-align: center;
+    padding: 20px;
+    font-size: 0.7em;
+
+}
+#logo-titulo{
+    padding: 10px;
+}
+#vanta {
+    padding: 50px;
+    width: 700px;
+    
+    float: left;
+}
+#cursos{
+    width: 700px;
+    padding: 50px;
+    
+    float: left;
+}
+.numeros{
+    padding: 25px;
+    text-align: left;
+}
+#clientes{
+    width: 400px ;
+    float: right;
+    padding: 50px;
+}
+#cliente-comentário{
+    padding: 10px;
+}
+#rodape{
+    text-align: center;
+    clear: both;
+    padding: 20px;
+
+}
