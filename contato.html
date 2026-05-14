@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="c2.css">
+    <link rel="stylesheet" type="text/css" href="s.css">
     <title>Fanny-Contato</title>
 </head>
 <body>
     <div id="conteiner">
-        <img id="imagens" src="../icone-pj.png">
+        <div class="user-icon"></div>
         <form>
             <div>
-                <input class="usuario" type="text" name="email" id="name" placeholder="Digite seu email: ">
+                <input class="usuario" type="email" name="email" id="name" placeholder="Digite seu email: ">
             </div>
 
             <div>
@@ -18,11 +19,12 @@
             </div>
 
             <div>
-                <input class="submit" type="submit" value="Logar">
+                <button type="button" onclick="logar()">Logar</button>
             </div>
         </form>
-
     </div>    
     
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="logica.js"></script>
 </body>
 </html>

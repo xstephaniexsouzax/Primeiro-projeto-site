@@ -6,7 +6,40 @@ body{
     width: 100vw;
     height: 100vh;
 }
-  
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  background: #6b52ae; /* Cor do seu botão */
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+/* Cabeça */
+.user-icon::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+/* Corpo */
+.user-icon::after {
+  content: '';
+  width: 34px;
+  height: 20px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 16%;
+}
 #conteiner img{
     width: 120px;
     height: 120px;
