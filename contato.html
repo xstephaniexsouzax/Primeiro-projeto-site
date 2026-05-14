@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="c2.css">
+    <link rel="stylesheet" type="text/css" href="s.css">
+    <title>Fanny-Contato</title>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="user-icon"></div>
+        <form>
+            <div>
+                <input class="usuario" type="email" name="email" id="name" placeholder="Digite seu email: ">
+            </div>
+
+            <div>
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha: ">
+            </div>
+
+            <div>
+                <button type="button" onclick="logar()">Logar</button>
+            </div>
+        </form>
+    </div>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="logica.js"></script>
+</body>
+</html>
